@@ -57,7 +57,7 @@ a{
 
 
 #header{
-    background-image: url(/asset/image/header-bg.png);
+    background-image: url(../image/header-bg.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; 
@@ -179,7 +179,7 @@ a{
 #ideas{
     padding: 8px 0;
     padding-left: 260px;
-    background-image: url(/asset/image/background/2.jpg);
+    background-image: url(../image/background/2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -234,10 +234,12 @@ a{
     text-align: center;
     padding: 30px 0;
     font-size: small;
+    font-weight: bolder;
 
 }
 
 .idea-wrapper .idea-content .coursec a:hover, .recentWork-wrapper .recent-content .rcntBrnd a:hover{
+    color: #773390;
     transition: all 0.5s ease-in-out;
 
 }
@@ -251,15 +253,15 @@ a{
 }
 
 .idea-wrapper .idea-content .coursec a{
-    margin-right: 6px;
+    margin-right: 4px;
     padding: 0 10px;
-    font-weight: 600;
+    font-weight: 800;
     color: black;
 }
 
 .idea-content .coursec a.service-btn{
     background-color: #f42267;
-    padding: 10px 25px;
+    padding: 10px 23px;
     border-radius: 30px;
     color: white;
     border: none;
@@ -338,7 +340,7 @@ a{
 
 
 #storySection {
-    background: url(/asset/image/story.png);
+    background: url(../image/story.png);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -564,16 +566,12 @@ a{
 
 
 #testimonialSection{
-    background: url(/asset/image/testimonial/testimonial-bg.png);
+    background: url(../image/testimonial/testimonial-bg.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: -132px;
 
-}
-
-#testimonialSection .container{
-    margin-left: 160px;
 }
 
 #testimonialSection .container .testimonial-wrapper .testimonial-image img{
@@ -610,6 +608,7 @@ a{
 .testimonial-wrapper{
     display: grid;
     grid-template-columns: repeat(2, 2fr);
+    margin-left: 160px;
 
 }
 
@@ -629,7 +628,7 @@ a{
 
 
 #newslatterSection{
-    background-image: url(/asset/image/need-help-bg.png);
+    background-image: url(../image/need-help-bg.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -759,7 +758,7 @@ input.read-btn{
 
 
 #footerSection{
-    background-image: url(/asset/image/background/2.jpg);
+    background-image: url(../image/background/2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
