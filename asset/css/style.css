@@ -299,25 +299,16 @@ a{
     padding: 45px 0;
 }
 
-.announciator-wrapper .sec1:hover{
-    background-color: #40286a;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
-
+.sec1 i, .sec2 i, .sec3 i{
+    font-size: 60px;
+    padding-bottom: inherit;
 }
 
-.announciator-wrapper .sec2:hover{
+.sec1:hover, .sec2:hover, .sec3:hover{
     background-color: #40286a;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
 
-}
-
-.announciator-wrapper .sec3:hover{
-    background-color: #40286a;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
-    
 }
 
 .announciator-wrapper .sec1 h2, .sec2 h2, .sec3 h2{
@@ -392,43 +383,6 @@ a{
 
 
 
-.service-wrapper .content h1,h2{
-    color: black;
-
-}
-
-.service-wrapper .content h2{
-    margin-bottom: 20px;
-    font-size: 45px;
-
-}
-
-.service-wrapper .content h1{
-    font-family: 'Palatino Linotype', sans-serif;
-    font-size: 30px;
-    font-style: italic;
-
-}
-
-.service-wrapper .content p{
-    margin-bottom: 40px;
-    color: black;
-    text-align: justify;
-    line-height: 1.5;
-    font-weight: 500;
-
-}
-
-.service-wrapper .content h3{
-    text-align: center;
-    padding: 20px 0;
-
-}
-
-.service-wrapper .content .read-btn{
-    margin-top: 5px;
-
-}
 
 .service-wrapper{
     display: grid;
@@ -438,9 +392,36 @@ a{
 
 }
 
-.service-wrapper .video img{
-    width: 80%;
-    margin-top: 70px;
+.service-wrapper h1,h2{
+    color: black;
+
+}
+
+.service-wrapper h1{
+    font-family: 'Palatino Linotype', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+
+}
+
+.service-wrapper h2{
+    margin-bottom: 20px;
+    font-size: 45px;
+
+}
+
+.service-wrapper h3{
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+.service-wrapper p{
+    margin-bottom: 40px;
+    color: black;
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: 500;
 
 }
 
@@ -451,16 +432,46 @@ a{
 
 }
 
-.service-wrapper .content .serv-wrapper .serv-1 p{
+.serv-wrapper p{
     text-align: justify;
     padding: 0;
 
 }
 
-.service-wrapper .content .serv-wrapper .serv-1 h3{
+.serv-wrapper h3{
     text-align: left;
 
 }
+
+.serv-1 i{
+    font-size: 40px;
+
+}
+
+.service-wrapper .read-btn{
+    margin-top: 5px;
+
+}
+
+.service-wrapper .video {
+    position: relative;
+}
+
+.service-wrapper .video img{
+    width: 80%;
+    margin-top: 70px;
+
+}
+
+.service-wrapper .video i{
+    font-size: 80px;
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    
+}
+
+
 
 
 
@@ -602,7 +613,21 @@ a{
     margin-bottom: 100px;
     text-align: justify;
     font-style: italic;
+    position: relative;
 
+}
+
+.testimonial-content p i{
+    font-size: 40px;
+    position: absolute;
+    top: -20px;
+    left: -40px;
+
+}
+
+.star {
+    font-size: 13px;
+    padding-bottom: 1rem;
 }
 
 .testimonial-wrapper{
